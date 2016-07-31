@@ -45,8 +45,7 @@
   (set-face-attribute 'default nil :height pair--previous-height)
   (setq pair--state nil)
 
-  (global-linum-mode nil)
-  (linum-mode -1)
+  (global-linum-mode -1)
   (load-theme 'zenburn))
 
 (defun pair/on ()
@@ -56,7 +55,7 @@
   (set-face-attribute 'default nil :height 180)
   (setq pair--state t)
 
-  (global-linum-mode t))
+  (global-linum-mode 1))
 
 (define-minor-mode pair-mode
   "Make pairing friendlier"
