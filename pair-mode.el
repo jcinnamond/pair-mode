@@ -44,17 +44,12 @@
 (defun pair/off ()
   (set-face-attribute 'default nil :height pair--previous-height)
   (setq pair--state nil)
-
-  (global-linum-mode -1)
-  (load-theme 'zenburn))
+  (global-linum-mode -1))
 
 (defun pair/on ()
-  (load-theme 'manoj-dark)
-
   (setq pair--previous-height (face-attribute 'default :height))
   (set-face-attribute 'default nil :height 180)
   (setq pair--state t)
-
   (global-linum-mode 1))
 
 (define-minor-mode pair-mode
