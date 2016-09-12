@@ -3,7 +3,7 @@
 ;; Copyright 2016 John Cinnamond
 
 ;; Author: John Cinnamond
-;; Version: 1.0.1
+;; Version: 1.0.2
 
 ;;; Commentary:
 ;;
