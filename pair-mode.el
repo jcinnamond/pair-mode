@@ -60,3 +60,4 @@
   (pair/toggle))
 
 (provide 'pair-mode)
+;;; pair-mode.el ends here
